@@ -6,8 +6,8 @@ A simple Flask web application that converts an English sentence into a sequence
 
 ## 📸 Demo
 
-> 🔤 **Input**: `I love you`  
-> 🖼️ **Output**: An image strip showing the signs for `I`, `love`, and `you`.
+> 🔤 **Input**: `hey`  
+> 🖼️ **Output**: ![alt text](image.png)
 
 ---
 
@@ -27,6 +27,4 @@ A simple Flask web application that converts an English sentence into a sequence
 - Pillow (PIL) – Image processing
 
 ---
-
-## 📁 Folder Structure
 

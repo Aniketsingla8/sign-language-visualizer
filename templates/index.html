@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text to Sign Language Translator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        form {
+            margin-bottom: 30px;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        img {
+            margin-top: 30px;
+            max-width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text to Sign Language Translator</h1>
+    <form method="POST">
+        <input type="text" name="sentence" placeholder="Enter a sentence" required>
+        <button type="submit">Translate</button>
+    </form>
+
+    {% if combined_image %}
+        <h2>Sign Language Output:</h2>
+        <img src="static/output/combined.jpg" alt="Sign Language Strip">
+    {% endif %}
+</body>
+</html>

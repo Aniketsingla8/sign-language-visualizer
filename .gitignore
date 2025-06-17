@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+*.env
+
+# Flask cache and debug files
+instance/
+.webassets-cache
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Output images
+static/output/*.jpg
+
+# IDE/editor-specific
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+*.~lock.*
+ehthumbs.db
+Desktop.ini

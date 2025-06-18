@@ -14,7 +14,8 @@ A simple Flask web application that converts an English sentence into a sequence
 ## 🚀 Features
 
 - ✅ Converts typed text to a visual strip of sign language gestures.
-- ✅ Supports letters (`a-z`), numbers (`0-9`).
+- ✅ Supports letters (`a-z`), numbers (`0-9`) and a few words.
+- ✅ If the word is not there it divides the word into alphabets.
 - ✅ Displays output image on the same page.
 - ✅ Uses basic HTML, CSS, and Flask backend.
 
